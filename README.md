@@ -55,7 +55,7 @@ Some other potential analyses that could be done with the dataset include:
 2. ###### DBscan
 3. ###### Agglomerative Clustering.
  So among these Kmeans and agglomerative algorithm were better in creating the clusters and getting good score.
- For both these models we got approximatily 0.60 silhouette score. This score should be between 0.5 and 1 for a good model. 
+ For both these models I got approximatily 0.60 silhouette score. This score should be between 0.5 and 1 for a good model. 
 * ##### Top 10 Countries:
   Identified the top countries producing the most players.
 * ##### Player Age and Improvement:
@@ -64,9 +64,9 @@ Some other potential analyses that could be done with the dataset include:
   Discovered which offensive player positions tend to command the highest wages.
 
 ## Challenges Faced In This Project
-* ###### Since this is a high dimensional dataset it was hard to analyse all the features of each player. We used correlation matrix and heatmap to overcome this.
-* ###### Cleaning the dataset was challenging.It required understanding of business case and domain knowledge. To get it we had to refer to various resources on internet.
-* ###### Our cleaned dataset had 79 features after dropping the unwanted features, which is hard for K-means to find meaningfull cluster.As the number of dimensions increases, the distance between points tends to become similar, making it difficult to differentiate clusters. so to reduce the dimensionality we used PCA (Principal Component Analysis)  before applying KMeans.
+* ###### Since this is a high dimensional dataset it was hard to analyse all the features of each player. I used correlation matrix and heatmap to overcome this.
+* ###### Cleaning the dataset was challenging.It required understanding of business case and domain knowledge. To get it I had to refer to various resources on internet.
+* ###### The cleaned dataset had 79 features after dropping the unwanted features, which is hard for K-means to find meaningfull cluster.As the number of dimensions increases, the distance between points tends to become similar, making it difficult to differentiate clusters. so to reduce the dimensionality I used PCA (Principal Component Analysis)  before applying KMeans.
 
 
 
