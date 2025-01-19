@@ -56,9 +56,12 @@ Some other potential analyses that could be done with the dataset include:
 3. ###### Agglomerative Clustering.
  So among these Kmeans and agglomerative algorithm were better in creating the clusters and getting good score.
  For both these models we got approximatily 0.60 silhouette score. This score should be between 0.5 and 1 for a good model. 
-* ##### Top 10 Countries: Identified the top countries producing the most players.
-* ##### Player Age and Improvement: Found a specific age range where players tend to stop improving in terms of overall rating.
-* ##### Offensive Players Wages: Discovered which offensive player positions tend to command the highest wages.
+* ##### Top 10 Countries:
+  Identified the top countries producing the most players.
+* ##### Player Age and Improvement:
+   Found a specific age range where players tend to stop improving in terms of overall rating.
+* ##### Offensive Players Wages:
+  Discovered which offensive player positions tend to command the highest wages.
 
 ## Challenges Faced In This Project
 * ###### Since this is a high dimensional dataset it was hard to analyse all the features of each player. We used correlation matrix and heatmap to overcome this.
